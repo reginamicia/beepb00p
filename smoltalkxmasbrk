@@ -1,0 +1,38 @@
+{
+  "id": "2694f27a-173b-40c0-bdd6-52f7b3673a6f",
+  "timestamp": "2017-12-21T14:27:43.299Z",
+  "lang": "en",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "Do we get a christmas break?",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "holiday_scheudle": "",
+      "holidaybreak": "holiday break"
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "a089b47f-f58c-43e8-8bea-343810550d3d",
+      "webhookUsed": "false",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "emp.christmas_break"
+    },
+    "fulfillment": {
+      "speech": "Our Holiday break begins Friday, December 22 at 12 noon. You have Christmas day off through New Years' Day. See you back on the second of January 2018!",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Our Holiday break begins Friday, December 22 at 12 noon. You have Christmas day off through New Years' Day. See you back on the second of January 2018!"
+        }
+      ]
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success",
+    "webhookTimedOut": false
+  },
+  "sessionId": "fc090219-c9a7-4a07-b398-9d823bf3ecdd"
+}
